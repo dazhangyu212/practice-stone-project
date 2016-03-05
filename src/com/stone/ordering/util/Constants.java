@@ -34,4 +34,8 @@ public class Constants {
 	 * 现场采集和比对结果数据库
 	 */
 	public static final String COLLECT_DB_PATH = DATA_PATH + "main.db";
+	
+	static public final byte HEX_DIGITS[] = { (byte) '0', (byte) '1', (byte) '2', (byte) '3', (byte) '4', (byte) '5', (byte) '6', (byte) '7', (byte) '8',
+			(byte) '9', (byte) 'a', (byte) 'b', (byte) 'c', (byte) 'd', (byte) 'e', (byte) 'f' };
+
 }
