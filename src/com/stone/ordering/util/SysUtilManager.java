@@ -676,7 +676,7 @@ public class SysUtilManager {
 		String versionName = "";
 		try {
 			PackageManager packageManager = MyApplication.getMyApplication().getPackageManager();
-			PackageInfo packageInfo = packageManager.getPackageInfo("com.hisign.qrceb", 0);
+			PackageInfo packageInfo = packageManager.getPackageInfo("com.stone.ordering", 0);
 			versionName = packageInfo.versionName;
 			if (TextUtils.isEmpty(versionName)) {
 				return "";
